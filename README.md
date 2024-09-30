@@ -6,7 +6,7 @@ This project demonstrates how to query AWS documentation using a Large Language 
 
 To run this project, ensure you have Docker installed, then use the following commands:
 
-docker build -t llm-app .
+docker build -t llm-app . <br>
 docker run -p 5000:5000 llm-app
 
 > **Note:** The application might take a few minutes to start due to the instantiation of the LLM.
